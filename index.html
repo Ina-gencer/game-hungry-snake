@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNAKE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1> GAME "SNAKE"</h1>
+    </div>
+    <canvas id="game" width="608" height="608"></canvas>
+<!-- up -->
+    <div class="btn">
+        <button id="btnUp" class="btnAll">
+            <img src="arrow_top.png" alt="">
+        </button>
+    </div>
+    <!-- left, right -->
+    <div class="btnGroup">
+        <button id="btnLeft" class="btnAll"><img src="arrow_left.png" alt=""></button>
+        <button id="btnRight" class="btnAll"><img src="arrow_right.png" alt=""></button>
+    </div>
+    <!-- dawn -->
+    <div class="btn">
+        <button id="btnDown" class="btnAll"><img src="arrow_bottom.png" alt=""></button>
+    </div>
+    <audio id="myAudio" src="Ateez - Deja Vu.mp3" loop="loop" autoplay="autoplay"></audio>
+    <br>
+    <hr>
+<div class="heading">
+    <p>by Ina Gencer</p>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

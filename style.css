@@ -1,0 +1,39 @@
+.heading {
+    display: flex;
+    justify-content: center;
+}
+canvas {
+    display: block;
+    margin: 0px auto;
+    box-shadow: black 10px 10px 50px;
+}
+body {
+    background-image: url(16.jpg);
+    
+    background-size: cover;  
+}
+h1, p {
+    color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*  */
+.btn {
+    display: flex;
+    justify-content: center;
+}
+#btnUp {
+   margin-top: 20px;
+}
+.btnGroup {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnAll {
+    padding: 5px 30px;
+ 
+    /* background-color: coral; */
+    background-color: transparent;
+   
+}
